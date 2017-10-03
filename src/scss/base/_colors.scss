@@ -1,2 +1,44 @@
 $blue-grad-light: #6b8ae4;
 $blue-grad-dark: #4161bd;
+$green-grad-light: #92FE9D;
+$green-grad-dark: #00C9FF;
+$red-grad-light: #ff9966;
+$red-grad-dark: #ff5e62;
+$light-blue-grad-light: #b6fbff;
+$light-blue-grad-dark: #83a4d4;
+$purple-grad-light: #a044ff;
+$purple-grad-dark: #6a3093;
+$yellow-grad-light: #ED8F03;
+$yellow-grad-dark: #FFB75E;
+$dark-red-grad-light: #cbad6d;
+$dark-red-grad-dark: #d53369;
+
+.gradient {
+    &--blue {
+        background: linear-gradient(135deg, $blue-grad-dark, $blue-grad-light);
+    }
+    &--green {
+        background: linear-gradient(135deg, $green-grad-dark, $green-grad-light);
+    }
+    &--red {
+        background: linear-gradient(135deg, $red-grad-dark, $red-grad-light);
+    }
+    &--light-blue {
+        background: linear-gradient(135deg, $light-blue-grad-dark, $light-blue-grad-light);
+    }
+    &--purple {
+        background: linear-gradient(135deg, $purple-grad-dark, $purple-grad-light);
+    }
+    &--yellow {
+        background: linear-gradient(135deg, $yellow-grad-dark, $yellow-grad-light);
+    }
+    &--dark-red {
+        background: linear-gradient(135deg, $dark-red-grad-dark, $dark-red-grad-light);
+    }
+}
+
+.background {
+    &--dark-blue {
+        background-color: #5171cc;
+    }
+}

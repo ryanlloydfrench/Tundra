@@ -1,0 +1,22 @@
+.section {
+    padding: 10rem 4rem;
+    position: relative;
+    overflow: hidden;
+    @include breakpoint(small) {
+        width: 100%;
+    }
+    cursor: pointer;
+    .particles {
+        opacity: 0;
+        transition: opacity 500ms linear;
+    }
+    &:hover {
+        .particles {
+            opacity: 1;
+        }
+        .uppercase::after {
+            width: 100%;
+            left: 0px;
+        }
+    }
+}
