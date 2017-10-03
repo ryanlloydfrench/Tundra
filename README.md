@@ -1,5 +1,5 @@
 ## Tundra
-A simple site on why I want to work for Tundra.
+A simple site on why I should work for Tundra.
 
 ### Setup
 1. Install Node
