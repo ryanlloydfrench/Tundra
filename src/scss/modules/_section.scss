@@ -33,6 +33,9 @@
     .particles {
         opacity: 0;
         transition: opacity 500ms linear;
+        @include breakpoint(small) {
+            opacity: 1;
+        }
     }
     &:hover {
         .particles {
