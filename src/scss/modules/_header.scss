@@ -2,6 +2,9 @@
     width: 100%;
     padding: 10rem 4rem;
     position: relative;
+    @include breakpoint(small) {
+        padding: 8rem 2rem;
+    }
     &__title {
         color: #FFFFFF;
         font-family: "Avenir Next LT W01 Bold";
