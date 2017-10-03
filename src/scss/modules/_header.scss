@@ -1,0 +1,10 @@
+.header {
+    background: linear-gradient(135deg, $blue-grad-dark, $blue-grad-light);
+    width: 100%;
+    padding: 10rem 0;
+    position: relative;
+    &__title {
+        color: #FFFFFF;
+        font-family: "Avenir Next LT W01 Bold";
+    }
+}
